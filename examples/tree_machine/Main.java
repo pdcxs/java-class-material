@@ -15,6 +15,9 @@ public class Main {
                        LST(VAR("fib"), LST(VAR("-"), VAR("n"), NUM(2))))))),
             PRINT(LST(VAR("fib"), NUM(20)))
         );
+
+        System.out.println(program);
+
         Machine machine = new Machine(program);
         machine.run();
 
@@ -26,6 +29,7 @@ public class Main {
             LST(VAR("f"), NUM(2)),
             PRINT(VAR("x"))
         );
+        System.out.println(program);
         machine = new Machine(program);
         machine.run();
     }

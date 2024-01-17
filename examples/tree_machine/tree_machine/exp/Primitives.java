@@ -339,6 +339,11 @@ public class Primitives {
             System.out.println(arg.eval(env));
             return new Leaf<Ret>(Ret.Ok);
         }
+
+        @Override
+        public String toString() {
+            return "(displayln " + arg + ")";
+        }
     }
 
     public static Print PRINT(TreeNode arg) {
