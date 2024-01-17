@@ -76,7 +76,48 @@ BEGIN(
 
 ## 运行方法
 
+如果安装有 `make` 程序，则可以运行：
 
+```
+make
+```
+
+进行编译，运行
+
+```
+make run
+```
+
+运行编译好的程序，
+
+运行
+
+```
+make test
+```
+
+运行测试程序。
+
+如果没有安装 `make` 程序，运行：
+
+```
+javac -d ./build Main.java
+```
+
+编译 `Main.java` 文件，运行：
+
+```
+javac -d ./build Test.java
+```
+
+编译测试文件。运行：
+
+```
+java -cp ./build Main
+java -cp ./build Test
+```
+
+将分别执行主程序和测试程序。
 
 ## 总结
 
