@@ -235,7 +235,7 @@ public class Primitives {
         private TreeNode body;
         private TreeNode args;
 
-        Lambda(TreeNode vars, TreeNode body) {
+        public Lambda(TreeNode vars, TreeNode body) {
             assert isConsList(args);
             assert body != NIL;
             assert isConsList(body);

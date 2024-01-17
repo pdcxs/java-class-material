@@ -15,6 +15,7 @@ public class Main {
                        LST(VAR("fib"), LST(VAR("-"), VAR("n"), NUM(2))))))),
             PRINT(LST(VAR("fib"), NUM(20)))
         );
+        
 
         System.out.println(program);
 
