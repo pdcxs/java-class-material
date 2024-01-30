@@ -1,8 +1,8 @@
-package tree_machine.exp;
+package treemachine.exp;
 
-import tree_machine.env.*;
-import static tree_machine.exp.Leaf.*;
-import static tree_machine.utils.List.*;
+import treemachine.env.*;
+import static treemachine.exp.Leaf.*;
+import static treemachine.util.List.*;
 
 public class Primitives {
     public static class NIL extends Leaf<Boolean> {

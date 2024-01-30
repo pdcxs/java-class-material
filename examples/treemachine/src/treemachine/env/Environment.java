@@ -1,9 +1,9 @@
-package tree_machine.env;
+package treemachine.env;
 
-import tree_machine.exp.*;
+import treemachine.exp.*;
 import java.util.Stack;
-import static tree_machine.exp.Primitives.*;
-import static tree_machine.exp.Leaf.*;
+import static treemachine.exp.Primitives.*;
+import static treemachine.exp.Leaf.*;
 
 public class Environment {
     private Stack<Frame> env;

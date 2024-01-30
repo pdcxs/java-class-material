@@ -1,9 +1,9 @@
-import tree_machine.Machine;
-import static tree_machine.exp.Primitives.*;
-import static tree_machine.utils.List.*;
-import static tree_machine.exp.Leaf.*;
+import treemachine.Machine;
+import static treemachine.exp.Primitives.*;
+import static treemachine.util.List.*;
+import static treemachine.exp.Leaf.*;
 
-public class Main {
+public class App {
     public static void main(String[] args) {
         System.out.println("========== Program 1 ===========");
         var program = BEGIN(

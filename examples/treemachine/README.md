@@ -1,4 +1,4 @@
-# 语法树解释器
+# TreeMachine 语法树解释器
 
 本项目展示了如何创建一个通用计算机 `Machine` ，该计算机支持用户创建自己的命令，并在机器上运行。
 
@@ -76,48 +76,17 @@ BEGIN(
 
 ## 运行方法
 
-如果安装有 `make` 程序，则可以运行：
+本项目使用 `Visual Studio Code` 进行编辑。VS Code 需要安装 `Extension Pack for Java` 插件。
 
-```
-make
-```
+用VS Code打开本项目**目录**，在`App.java`中，直接点击 `Main` 函数上方的 Run 按钮，即可运行。
 
-进行编译，运行
+按 `Ctrl-Shift-P` 打开 VS Code 的命令面板，输入 `java jar` 找到并选择 `Java: Export Jar ...` 命令，执行后会提示选择 `Main Class`，选择 `App` 作为主类即可。执行结束后，会在本目录下生成 `treemachine.jar`，此时，执行：
 
-```
-make run
+```shell
+java -jar treemachine.jar
 ```
 
-运行编译好的程序，
-
-运行
-
-```
-make test
-```
-
-运行测试程序。
-
-如果没有安装 `make` 程序，运行：
-
-```
-javac -d ./build Main.java
-```
-
-编译 `Main.java` 文件，运行：
-
-```
-javac -d ./build Test.java
-```
-
-编译测试文件。运行：
-
-```
-java -cp ./build Main
-java -cp ./build Test
-```
-
-将分别执行主程序和测试程序。
+也可以运行本项目。
 
 ## 总结
 

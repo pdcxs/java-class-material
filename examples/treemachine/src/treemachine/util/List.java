@@ -1,8 +1,8 @@
-package tree_machine.utils;
+package treemachine.util;
 
-import static tree_machine.exp.Primitives.*;
-import tree_machine.exp.Node;
-import tree_machine.exp.TreeNode;
+import static treemachine.exp.Primitives.*;
+import treemachine.exp.Node;
+import treemachine.exp.TreeNode;
 
 public class List {
     public static TreeNode LST(TreeNode... nodes) {

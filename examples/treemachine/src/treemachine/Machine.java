@@ -1,7 +1,7 @@
-package tree_machine;
+package treemachine;
 
-import tree_machine.env.*;
-import tree_machine.exp.*;
+import treemachine.env.*;
+import treemachine.exp.*;
 
 public class Machine {
     TreeNode program;

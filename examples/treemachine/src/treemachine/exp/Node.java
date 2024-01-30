@@ -1,8 +1,8 @@
-package tree_machine.exp;
+package treemachine.exp;
 
-import tree_machine.env.Environment;
-import static tree_machine.exp.Primitives.NIL;
-import static tree_machine.utils.List.isConsList;
+import treemachine.env.Environment;
+import static treemachine.exp.Primitives.NIL;
+import static treemachine.util.List.isConsList;
 
 public class Node implements TreeNode {
     public TreeNode left;

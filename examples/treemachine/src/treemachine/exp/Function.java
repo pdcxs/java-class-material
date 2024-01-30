@@ -1,6 +1,6 @@
-package tree_machine.exp;
+package treemachine.exp;
 
-import tree_machine.env.Environment;
+import treemachine.env.Environment;
 
 public interface Function extends TreeNode {
     public void apply(TreeNode args);

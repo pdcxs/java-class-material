@@ -1,8 +1,8 @@
-package tree_machine.env;
+package treemachine.env;
 
-import tree_machine.exp.*;
-import static tree_machine.exp.Primitives.*;
-import static tree_machine.utils.List.isConsList;
+import treemachine.exp.*;
+import static treemachine.exp.Primitives.*;
+import static treemachine.util.List.isConsList;
 
 import java.util.Hashtable;
 

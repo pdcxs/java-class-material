@@ -1,6 +1,6 @@
-package tree_machine.exp;
+package treemachine.exp;
 
-import tree_machine.env.*;
+import treemachine.env.*;
 
 public class Leaf<T> implements TreeNode {
     public boolean isList() {
