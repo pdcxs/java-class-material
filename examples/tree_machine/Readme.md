@@ -138,3 +138,4 @@ java -cp ./build Test
 3. 实现更多的函数，例如三角函数、平方根函数等等，利用现有编程语言，使用牛顿迭代法求 $\sqrt{2}$ 的近似值，与直接套用系统函数求得的值运行比较，输出其误差。
 4. 实现 `QUOTE` 语句，`QUOTE(x)` 后边的 `x` 将不会被执行，例如，`LST(1, 2, 3)` 将会报错，因为 `1` 不是一个函数，但是 `QUOTE(LST(1, 2, 3))` 将会单纯返回 `LST(1, 2, 3)`。再例如，`VAR("x")` 将会在当前环境中查找变量 `x` 的值并返回，但是 `QUOTE(VAR("x"))` 仅仅会得到 `VAR("x")`，而不会进行查找操作。
 5. 实现闭包特性。
+6. 实现一个解析器，使得程序可以读入一段[`scheme`语言](https://www.scheme.com/tspl4/)的代码，并执行。（如果觉得这个问题过于困难，可以参考[`parser`示例](https://github.com/pdcxs/java-class-material/tree/main/examples/parser)。
