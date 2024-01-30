@@ -17,3 +17,19 @@
 
 (displayln (fib2 20 0 1))
 ```
+
+## 运行方法
+
+### 方法一
+
+如果电脑安装有 `make`，则可以运行 `make` 进行编译，并运行 `make run` 运行。
+
+### 方法二
+
+用 VS Code 打开本项目，如 treemachine 项目中描述的类似，运行 `Java: Export Jar` 命令，选择 `Parser` 作为主类，包含所有jar文件，可在本项目目录下生成 `parser.jar` 文件。运行：
+
+```shell
+java -jar parser.jar code.txt
+```
+
+即可。可以尝试更改code.txt中的程序来查看效果。

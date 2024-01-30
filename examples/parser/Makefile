@@ -1,4 +1,4 @@
-CLASS_PATH="bin;./lib/tree_machine.jar"
+CLASS_PATH="bin;./lib/treemachine.jar"
 
 all: bin/parser/Parser.class bin/parser/Lexer.class
 

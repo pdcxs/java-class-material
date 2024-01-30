@@ -4,14 +4,14 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 
-import tree_machine.Machine;
-import tree_machine.exp.*;
-import tree_machine.exp.Primitives.Lambda;
+import treemachine.Machine;
+import treemachine.exp.*;
+import treemachine.exp.Primitives.Lambda;
 
-import static tree_machine.exp.Primitives.*;
-import static tree_machine.utils.List.BEGIN;
-import static tree_machine.exp.Leaf.*;
-import static tree_machine.exp.Node.*;
+import static treemachine.exp.Primitives.*;
+import static treemachine.util.List.BEGIN;
+import static treemachine.exp.Leaf.*;
+import static treemachine.exp.Node.*;
 
 public class Parser {
     int loc;
