@@ -1,11 +1,10 @@
 package digit_circuit.compound;
 
-import digit_circuit.Gate;
 import digit_circuit.Simulator;
 import digit_circuit.Wire;
 import digit_circuit.gates.*;
 
-public class HalfAdder extends Gate {
+public class HalfAdder extends CompoundGate {
     public Wire input1, input2;
     public Wire sum, carry;
 
@@ -28,7 +27,4 @@ public class HalfAdder extends Gate {
         simulator.add(new Not(carry, notResult));
         simulator.add(new And(orResult, notResult, sum));
     }
-
-    @Override
-    public void run() {}
 }
