@@ -4,7 +4,7 @@
 
 ## brainfuck
 
-`Brainfuck` 是一种极小化的计算机语言，它是由Urban Müller在1993年创建的。由于fuck在英语中是脏话，这种语言有时被称为brainf*ck或brainf**k，甚至被简称为BF。在brainfuck项目中，是一个 Java 版本的简易实现。并且有两段程序：`factorial` 和 `helloworld`。在运行Brainfuck.java后，程序会以REPL（Read-Eval-Print Loop）的方式等待用户录入程序（录入空行或者按 `Ctrl-C` 退出）。可以将两做程序粘贴进程序运行测试。
+`Brainfuck` 是一种极小化的计算机语言，它是由Urban Müller在1993年创建的。由于fuck在英语中是脏话，这种语言有时被称为brainf*ck或brainf**k，甚至被简称为BF。在brainfuck项目中，是一个 Java 版本的简易实现。并且有两段程序：`factorial` 和 `helloworld`。在运行Brainfuck.java后，程序会以REPL（Read-Eval-Print Loop）的方式等待用户录入程序（录入空行或者按 `Ctrl-C` 退出）。可以将两段程序粘贴进程序运行测试。
 
 ## digit-circuit
 
@@ -14,7 +14,7 @@
 
 **TreeMachine** 是一种可以执行通用递归指令的计算机。实际上，这个计算机可以当作是 [`scheme` 语言](https://www.scheme.com/tspl4/) 的抽象语法树执行程序。
 
-**TreeMachine** 项目只是一个非常简单的实现，很多语言特性不支持，没有任何优化。但是足够作为教学使用了。有余力的读者可以尝试练习该项目 Readme 中后边的问题。
+**TreeMachine** 项目只是一个非常简单的实现，很多语言特性不支持，没有任何优化。但是足够作为教学使用了。有余力的读者可以尝试练习该项目 Readme 中后边的问题。原版程序可参考 [SICP 第四章](https://sarabander.github.io/sicp/html/4_002e1.xhtml#g_t4_002e1)。
 
 ## parser
 
