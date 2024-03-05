@@ -12,6 +12,10 @@
 
 **Digital Circuit** 程序主要功能是利用 `Java` 进行数字电路仿真。灵感来源于 SICP（计算机程序的构造和解释），原版可以参看[教材](https://sarabander.github.io/sicp/html/3_002e3.xhtml#g_t3_002e3_002e4)或者[视频](https://www.bilibili.com/video/BV1Xx41117tr/?p=10)。
 
+## lazylist
+
+使用 `Java` 语言实现函数式编程的流（`stream`），即惰性数组。参见[SICP](https://www.bilibili.com/video/BV1Xx41117tr?p=11)
+
 ## treemachine
 
 **TreeMachine** 是一种可以执行通用递归指令的计算机。实际上，这个计算机可以当作是 [`scheme` 语言](https://www.scheme.com/tspl4/) 的抽象语法树执行程序。
