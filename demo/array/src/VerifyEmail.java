@@ -11,7 +11,7 @@ public class VerifyEmail {
             System.out.println(matcher.group() + ": " + matcher.start() + ", " + matcher.end());
         }
 
-        String regex = "^\\w+(-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$";
+        String regex = "^\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$";
         String email;
         Scanner sc = new Scanner(System.in);
         boolean getEmail = false;

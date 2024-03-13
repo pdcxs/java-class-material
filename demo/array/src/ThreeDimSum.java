@@ -12,5 +12,15 @@ public class ThreeDimSum {
         }
 
         System.out.println("Sum is: " + sum);
+
+        sum = 0;
+        for (int[][] i : arr) {
+            for (int[] j : i) {
+                for (int k : j) {
+                    sum += k;
+                }
+            }
+        }
+        System.out.println("Sum is: " + sum);
     }
 }

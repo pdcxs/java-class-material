@@ -1,6 +1,6 @@
 class Cylinder {
     double radius;
-    int height;
+    double height;
 
     double area() {
         return Math.PI * radius * radius;
@@ -18,8 +18,6 @@ public class CylinderApp {
         cylinder.radius = 2.8;
         cylinder.height = 5;
 
-        System.out.println("Radius: " + cylinder.radius);
-        System.out.println("Height: " + cylinder.height);
         System.out.println("Area: " + cylinder.area());
         System.out.println("Volume: " + cylinder.volume());
     }
