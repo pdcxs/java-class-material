@@ -2,7 +2,7 @@ public class BubbleSort {
     public static void sort(int[] arr) {
         for (int i = arr.length - 1; i >= 0; i--) {
             boolean isChange = false;
-            for (int j = 0; j < i - 1; j++) {
+            for (int j = 0; j < i; j++) {
                 if (arr[j] > arr[j + 1]) {
                     isChange = true;
                     int tmp = arr[j];

@@ -1,5 +1,5 @@
 class Ball {
-    static final int radius = 20;
+    static final int radius = 10;
     color c = color(random(255), random(255), random(255));
     PVector loc;
     PVector vel;

@@ -39,7 +39,7 @@ public class Person {
         if (obj == this) {
             return true;
         }
-        if (obj instanceof Person) {
+        if (obj != null && obj instanceof Person) {
             Person p = (Person)obj;
             return p.firstName.equals(firstName) && p.lastName.equals(lastName);
         }

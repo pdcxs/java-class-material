@@ -3,7 +3,7 @@ int ballsNum = 0;
 
 void setup() {
   size(1000, 500);
-  balls = new Ball[200];
+  balls = new Ball[300];
 }
 
 void draw() {
