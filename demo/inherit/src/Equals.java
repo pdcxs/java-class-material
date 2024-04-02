@@ -1,5 +1,17 @@
 class A {
     int a = 1;
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+        if (obj != null && obj.getClass() == A.class) {
+            A objA = (A)obj;
+            return this.a == objA.a;
+        }
+        return false;
+    }
 }
 
 public class Equals {

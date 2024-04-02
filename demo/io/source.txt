@@ -1,0 +1,3 @@
+Eric true 25
+Bob  true 23
+Alice false 26

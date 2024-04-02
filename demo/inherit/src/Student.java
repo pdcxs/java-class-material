@@ -18,7 +18,7 @@ public class Student extends Person {
 
     public static void main(String[] args) {
         Student stu = new Student();
-        stu.setNameAget("Bob", 21);
+        stu.setNameAge("Bob", 21);
         stu.show();
         stu.setDepartment("Computer Science");
     }

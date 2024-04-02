@@ -47,12 +47,12 @@ public class Primitives {
         }
 
         @Override
-        @SuppressWarnings({ "unchecked", "rawtypes" })
+        @SuppressWarnings("unchecked")
         public Leaf<Double> compute(Environment env) {
             if (list == NIL) {
                 return new Leaf<Double>(0.0);
             }
-            Leaf<Double> left = (Leaf) ((Node) list).left.eval(env);
+            Leaf<Double> left = (Leaf<Double>) ((Node) list).left.eval(env);
             Leaf<Double> right = (new Plus(((Node) list).right)).compute(env);
             return NUM(left.value + right.value);
         }
@@ -97,7 +97,7 @@ public class Primitives {
         }
 
         @Override
-        @SuppressWarnings({ "unchecked", "rawtypes" })
+        @SuppressWarnings("unchecked")
         public Leaf<Double> compute(Environment env) {
             if (list == NIL) {
                 return new Leaf<Double>(0.0);

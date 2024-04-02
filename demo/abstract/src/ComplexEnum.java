@@ -1,6 +1,6 @@
 public class ComplexEnum {
     public static void main(String[] args) {
-        Book[] bookShelf = new Book[]{Book.SICP, Book.OGL};
+        Book[] bookShelf = new Book[]{Book.SICP, Book.OGL, Book.SICP};
         for (Book b : bookShelf) {
             System.out.println(b);
         }

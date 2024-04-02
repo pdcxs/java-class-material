@@ -12,7 +12,7 @@ class Person {
         this.age = age;
     }
 
-    public void setNameAget(String name, int age) {
+    public void setNameAge(String name, int age) {
         this.name = name;
         this.age = age;
     }
