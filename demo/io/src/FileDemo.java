@@ -19,8 +19,8 @@ public class FileDemo {
                 marital = in.nextBoolean();
                 age = in.nextInt();
                 System.out.println("姓名：" + name + " 婚否：" + marital + " 年龄：" + age);
-                out.print(name);
-                out.print(marital);
+                out.print(name + " ");
+                out.print(marital + " ");
                 out.println(age);
             }
         }

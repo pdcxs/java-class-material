@@ -15,8 +15,6 @@ public class DirectoryOperation {
                 if (!fdir2.exists()) // 判断文件是否存在
                     fdir2.mkdir();
                 System.out.println();
-                for (int i = 0; i < fdir1.list().length; i++)
-                    System.out.println((fdir1.list())[i]);
             }
             System.out.print("File Name: ");
             sfile = inp.readLine();
