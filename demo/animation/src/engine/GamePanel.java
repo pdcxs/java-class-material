@@ -5,7 +5,7 @@ import javax.swing.JPanel;
 
 public class GamePanel extends JPanel implements Runnable {
     private Thread gameThread;
-    private App app;
+    private final App app;
     KeyHandler keyHandler;
     MouseHandler mouseHandler;
     double mouseX, mouseY, prevMouseX, prevMouseY;

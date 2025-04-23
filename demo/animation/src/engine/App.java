@@ -14,9 +14,11 @@ public class App {
     rand = new Random();
   }
 
-  public void draw() {}
+  public void draw() {
+  }
 
-  public void update(double delta) {}
+  public void update(double delta) {
+  }
 
   public int getRandomInt(int left, int right) {
     return rand.nextInt(left, right + 1);
@@ -54,12 +56,14 @@ public class App {
   }
 
   public void setColor(Color c) {
-    if (g == null) return;
+    if (g == null)
+      return;
     g.setColor(c);
   }
 
   public void setStrokeColor(Color c) {
-    if (g == null) return;
+    if (g == null)
+      return;
     strokeColor = c;
   }
 
@@ -68,7 +72,8 @@ public class App {
   }
 
   public void rect(int x, int y, int width, int height) {
-    if (g == null) return;
+    if (g == null)
+      return;
     g.fillRect(x, y, width, height);
     Color c = g.getColor();
     g.setColor(strokeColor);
@@ -78,7 +83,8 @@ public class App {
   }
 
   public void ellipse(int x, int y, int width, int height) {
-    if (g == null) return;
+    if (g == null)
+      return;
     g.fillOval(x, y, width, height);
     Color c = g.getColor();
     g.setColor(strokeColor);
@@ -92,7 +98,8 @@ public class App {
   }
 
   public void background(Color c) {
-    if (g == null) return;
+    if (g == null)
+      return;
     g.clearRect(0, 0, width, height);
     g.setColor(c);
     g.fillRect(0, 0, width, height);
@@ -110,11 +117,14 @@ public class App {
     return gamePanel.keyHandler.isKeyPressed(keycode);
   }
 
-  public void mouseClicked() {}
+  public void mouseClicked() {
+  }
 
-  public void mousePressed() {}
+  public void mousePressed() {
+  }
 
-  public void mouseReleased() {}
+  public void mouseReleased() {
+  }
 
   public double mouseX() {
     return gamePanel.mouseX;
@@ -132,13 +142,14 @@ public class App {
     return gamePanel.prevMouseY;
   }
 
-  private String title;
-  private int width, height;
+  private final String title;
+  private final int width;
+  private final int height;
   private JFrame window;
   GamePanel gamePanel;
   Graphics2D g;
   private int strokeWidth = 0;
   private Color strokeColor = Color.BLACK;
   int fps = 60;
-  private Random rand;
+  private final Random rand;
 }
