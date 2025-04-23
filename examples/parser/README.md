@@ -33,3 +33,7 @@ java -jar parser.jar code.txt
 ```
 
 即可。可以尝试更改code.txt中的程序来查看效果。
+
+### 方法三
+
+用 `IntelliJ IDEA` 打开本项目(`parser.iml`)，打开`Parser.java`，运行选项为当前文件，点击运行即可。

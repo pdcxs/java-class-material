@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="treemachine">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/treemachine.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
