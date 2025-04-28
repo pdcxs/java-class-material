@@ -8,5 +8,5 @@ bin/simpleparser/Parser.class: src/simpleparser/Parser.java
 bin/simpleparser/Lexer.class: src/simpleparser/Lexer.java
 	javac -d bin -cp ${CLASS_PATH} src/simpleparser/*.java
 
-run:
+run: all
 	java -cp ${CLASS_PATH} simpleparser.Parser code.txt
